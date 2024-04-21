@@ -19,7 +19,7 @@ def tanh(x):
 
 
 # Generate data
-x = np.linspace(-5, 5, 100)
+x = np.linspace(-10, 10, 100)
 sigmoid_y = sigmoid(x)
 relu_y = relu(x)
 leaky_relu_y = leaky_relu(x)
