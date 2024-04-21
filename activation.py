@@ -1,3 +1,5 @@
+# craeted a feature 2 branch for the merging
+
 import numpy as np
 import matplotlib.pyplot as plt
 # updated feature 2 branch
@@ -20,7 +22,7 @@ def tanh(x):
 
 
 # Generate data
-x = np.linspace(-10, 10, 100)
+x = np.linspace(-8, 8, 100)
 sigmoid_y = sigmoid(x)
 relu_y = relu(x)
 leaky_relu_y = leaky_relu(x)
